@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071a32">
+  <meta name="description" content="NIMOH CYBER CAFEE — internet access, printing, photocopying, scanning, typing, online applications and more. Fast, reliable and affordable.">
+  <title>NIMOH CYBER CAFEE | Fast • Reliable • Affordable</title>
+  <style>
+    :root{--navy:#071a32;--navy2:#0d2a4d;--blue:#1263d6;--yellow:#ffd21a;--ink:#10233f;--muted:#52627a;--pale:#f2f7fd;--line:#dbe6f3;--white:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:86px}body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6;background:#fff}a{color:inherit;text-decoration:none}button,a{ -webkit-tap-highlight-color:transparent}.container{width:min(1120px,92%);margin:auto}
+    .topbar{background:var(--navy);color:#fff;position:sticky;top:0;z-index:20;box-shadow:0 4px 18px #00152a24}.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:11px;font-weight:900;line-height:1.1;letter-spacing:.2px}.brand-icon{width:44px;height:38px;border:3px solid var(--yellow);border-radius:7px;display:grid;place-items:center;color:var(--yellow);font-size:24px}.brand-name{font-size:20px;color:#fff}.brand-name span{color:var(--yellow)}.tagline{font-size:11px;letter-spacing:1px;color:#d5e0ef;margin-top:5px}.nav-links{display:flex;align-items:center;gap:25px;font-size:14px;font-weight:700}.nav-links a:hover{color:var(--yellow)}.nav-cta{border:1px solid var(--yellow);color:var(--yellow);border-radius:30px;padding:10px 17px;font-weight:800;white-space:nowrap}.menu-btn{display:none;background:transparent;color:#fff;border:1px solid #ffffff55;border-radius:8px;padding:8px 11px;font-size:22px}
+    .hero{background:linear-gradient(90deg,#06172bf5 0%,#071a32e8 37%,#071a3270 67%,#071a3220 100%),url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1800&q=85') center/cover;color:#fff;min-height:480px;display:flex;align-items:center}.hero-content{padding:75px 0;max-width:620px}.eyebrow{color:var(--blue);font-weight:900;text-transform:uppercase;letter-spacing:1.2px;font-size:13px}.hero .eyebrow{color:var(--yellow)}h1{font-size:clamp(38px,6vw,66px);line-height:1.02;margin:13px 0 18px;letter-spacing:-1.8px}h1 span{color:var(--yellow)}.hero p{font-size:18px;max-width:510px;color:#e5edf7;margin:0 0 27px}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:11px;padding:13px 21px;font-weight:900;border:2px solid transparent;transition:transform .18s,background .18s}.btn:hover{transform:translateY(-2px)}.btn-primary{background:var(--yellow);color:#111f32}.btn-outline{border-color:#fff;color:#fff;background:#ffffff0d}.btn-outline:hover{background:#ffffff1a}
+    section{padding:68px 0}.section-head{text-align:center;margin:0 auto 32px;max-width:650px}.section-head h2{font-size:clamp(28px,4vw,38px);line-height:1.15;margin:7px 0 12px;color:var(--navy)}.section-head p{color:var(--muted);margin:0}.underline{width:58px;height:4px;background:var(--yellow);border-radius:9px;margin:14px auto 0}
+    .services-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.service{border:1px solid var(--line);border-radius:14px;padding:23px 18px;text-align:center;background:#fff;box-shadow:0 5px 18px #0d2a4d08;transition:transform .2s,box-shadow .2s}.service:hover{transform:translateY(-4px);box-shadow:0 12px 28px #0d2a4d14}.service .icon{width:56px;height:56px;display:grid;place-items:center;margin:0 auto 12px;border-radius:16px;background:#eaf2ff;color:var(--blue);font-size:29px}.service h3{font-size:16px;margin:0 0 8px}.service p{font-size:14px;color:var(--muted);margin:0}
+    .about{background:var(--pale)}.about-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:48px}.about h2{font-size:clamp(28px,4vw,38px);line-height:1.2;margin:8px 0 18px;color:var(--navy)}.about p{color:var(--muted)}.about-art{min-height:330px;border-radius:20px;background:linear-gradient(135deg,#0a2c52,#1263d6);position:relative;overflow:hidden;display:grid;place-items:center;color:#fff;padding:28px;text-align:center}.about-art:before,.about-art:after{content:"";position:absolute;border:1px solid #ffffff35;border-radius:50%;width:300px;height:300px}.about-art:after{width:440px;height:440px}.art-inner{position:relative;z-index:1}.art-computer{font-size:88px;line-height:1}.art-inner h3{font-size:27px;margin:12px 0 5px}.art-inner p{color:#e0edff;margin:0}
+    .why{background:linear-gradient(120deg,var(--navy),var(--navy2));color:#fff}.why .section-head h2{color:#fff}.why .section-head p{color:#d0deef}.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}.why-item{display:flex;align-items:flex-start;gap:13px}.why-icon{color:var(--yellow);font-size:27px;flex-shrink:0}.why-item h3{font-size:16px;margin:0 0 5px}.why-item p{font-size:13px;color:#cbd8e8;margin:0}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:stretch}.contact-info{display:grid;grid-template-columns:1fr 1fr;gap:22px}.contact-item{display:flex;gap:12px}.contact-icon{color:var(--blue);font-size:22px}.contact-item h3{margin:0 0 5px;font-size:15px}.contact-item p{margin:0;color:var(--muted);font-size:14px}.contact-panel{background:var(--pale);border:1px solid var(--line);border-radius:18px;padding:27px;display:flex;flex-direction:column;justify-content:center}.contact-panel h3{font-size:23px;margin:0 0 8px}.contact-panel p{color:var(--muted);margin:0 0 18px}.contact-panel .btn{align-self:flex-start}.note{font-size:12px;color:var(--muted);margin-top:16px}
+    footer{background:#041326;color:#fff;padding:28px 0}.footer-row{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer-links{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;color:#d3dfed}.footer-links a:hover{color:var(--yellow)}.copyright{font-size:12px;color:#aabbd0;margin-top:16px;border-top:1px solid #ffffff1c;padding-top:16px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    .whatsapp{position:fixed;right:18px;bottom:18px;background:#15b866;color:#fff;padding:13px 17px;border-radius:50px;box-shadow:0 8px 25px #0003;font-weight:900;z-index:15}
+    @media(max-width:900px){.nav-links{gap:14px}.services-grid{grid-template-columns:repeat(2,1fr)}.why-grid{grid-template-columns:repeat(2,1fr)}.about-grid{gap:28px}}
+    @media(max-width:700px){.nav{min-height:68px}.brand-icon{width:38px;height:35px}.brand-name{font-size:17px}.tagline{font-size:10px}.menu-btn{display:block}.nav-cta{display:none}.nav-links{display:none;position:absolute;top:68px;left:0;right:0;background:var(--navy);padding:18px 5% 22px;flex-direction:column;align-items:stretch;gap:0;border-top:1px solid #ffffff1a}.nav-links.open{display:flex}.nav-links a{padding:12px 0;border-bottom:1px solid #ffffff13}.hero{min-height:440px;background-position:58% center}.hero-content{padding:62px 0}.hero p{font-size:16px}.about-grid,.contact-grid{grid-template-columns:1fr}.about-art{min-height:260px}.contact-info{grid-template-columns:1fr 1fr}.why-grid{gap:20px}.whatsapp{right:12px;bottom:12px;font-size:13px;padding:11px 14px}}
+    @media(max-width:440px){.services-grid{grid-template-columns:1fr}.service{padding:21px}.why-grid{grid-template-columns:1fr}.contact-info{grid-template-columns:1fr}.hero h1{font-size:39px}.actions .btn{width:100%}.footer-row{align-items:flex-start;flex-direction:column}}
+  </style>
+</head>
+<body>
+  <!-- Contact details configured: 0797039465 | Oyugis, Homa Bay | Monday–Saturday, 8 AM–8 PM -->
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="NIMOH CYBER CAFEE home">
+        <span class="brand-icon" aria-hidden="true">▣</span>
+        <span><span class="brand-name">NIMOH <span>CYBER CAFEE</span></span><span class="tagline">FAST&nbsp; • &nbsp;RELIABLE&nbsp; • &nbsp;AFFORDABLE</span></span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#why-us">Why Choose Us</a><a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="#contact">☎ Contact Us</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="container"><div class="hero-content">
+        <div class="eyebrow">Welcome to your trusted cyber café</div>
+        <h1>NIMOH<br><span>CYBER CAFEE</span></h1>
+        <p>Your one-stop destination for internet access, printing, scanning, typing, online applications and more. Friendly service at affordable prices.</p>
+        <div class="actions"><a class="btn btn-primary" href="#services">▣ &nbsp; Explore Our Services</a><a class="btn btn-outline" href="#contact">✆ &nbsp; Contact Us</a></div>
+      </div></div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="section-head"><div class="eyebrow">Our Services</div><h2>How Can We Help You?</h2><p>From everyday computer tasks to important documents, we are here to help you get it done.</p><div class="underline"></div></div>
+        <div class="services-grid">
+          <article class="service"><div class="icon">◎</div><h3>Internet Access</h3><p>Browse, research, study and work online in a comfortable environment.</p></article>
+          <article class="service"><div class="icon">▤</div><h3>Printing & Photocopying</h3><p>Print and photocopy documents for school, work and personal use.</p></article>
+          <article class="service"><div class="icon">▧</div><h3>Scanning</h3><p>Scan your documents and prepare digital copies for sharing or submission.</p></article>
+          <article class="service"><div class="icon">⌨</div><h3>Typing & Documentation</h3><p>Typing, formatting, CVs, letters, reports and other document services.</p></article>
+          <article class="service"><div class="icon">▣</div><h3>Online Applications</h3><p>Assistance with online forms, registrations, applications and account setup.</p></article>
+          <article class="service"><div class="icon">▱</div><h3>CVs & Job Applications</h3><p>Help preparing CVs, application letters and job application documents.</p></article>
+          <article class="service"><div class="icon">▦</div><h3>Binding & Document Finishing</h3><p>Ask us about binding, laminating and other document-finishing services.</p></article>
+          <article class="service"><div class="icon">☏</div><h3>Digital Assistance</h3><p>Friendly help with email, downloads, file conversion and everyday computer tasks.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container about-grid">
+        <div><div class="eyebrow">About Us</div><h2>Technology Made Simple</h2><p>NIMOH CYBER CAFEE is here to make internet and computer services easier and more accessible for our community.</p><p>Whether you are a student, job seeker, business owner or need help with an important document, our goal is to offer helpful service in a welcoming environment.</p><p><strong>Our promise:</strong> fast service, reliable assistance and affordable options.</p><a class="btn btn-primary" href="#contact">Visit or Contact Us &nbsp; →</a></div>
+        <div class="about-art" role="img" aria-label="Illustration representing computer and internet services"><div class="art-inner"><div class="art-computer">▣</div><h3>NIMOH CYBER CAFEE</h3><p>Your everyday digital services partner</p></div></div>
+      </div>
+    </section>
+
+    <section class="why" id="why-us">
+      <div class="container"><div class="section-head"><div class="eyebrow">Why Choose Us</div><h2>Your Needs, Our Priority</h2><p>A dependable place to get your digital tasks done.</p><div class="underline"></div></div>
+        <div class="why-grid">
+          <div class="why-item"><div class="why-icon">ϟ</div><div><h3>Fast Service</h3><p>We value your time and aim to serve you efficiently.</p></div></div>
+          <div class="why-item"><div class="why-icon">✓</div><div><h3>Helpful Support</h3><p>Friendly assistance when you need a hand.</p></div></div>
+          <div class="why-item"><div class="why-icon">₦</div><div><h3>Affordable Options</h3><p>Practical services with clear, fair pricing.</p></div></div>
+          <div class="why-item"><div class="why-icon">★</div><div><h3>Customer Focused</h3><p>We work to make every visit a good experience.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container"><div class="section-head"><div class="eyebrow">Get in Touch</div><h2>Visit Us or Contact Us</h2><p>Have a question about a service? Get in touch and we will be happy to help.</p><div class="underline"></div></div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item"><div class="contact-icon">⌖</div><div><h3>Our Location</h3><p>Oyugis, Homa Bay<br>Kenya</p></div></div>
+            <div class="contact-item"><div class="contact-icon">☎</div><div><h3>Call Us</h3><p><a href="tel:+254797039465">0797 039 465</a><br><a href="https://wa.me/254797039465" target="_blank" rel="noopener">Chat on WhatsApp</a></p></div></div>
+            <div class="contact-item"><div class="contact-icon">◷</div><div><h3>Opening Hours</h3><p>Monday–Saturday<br>8:00 AM – 8:00 PM</p></div></div>
+            <div class="contact-item"><div class="contact-icon">✉</div><div><h3>Email</h3><p>Contact us by phone or WhatsApp.</p></div></div>
+          </div>
+          <div class="contact-panel"><h3>Need a quick response?</h3><p>Call or message NIMOH CYBER CAFEE to ask about services, pricing or opening hours.</p><a class="btn btn-primary" href="https://wa.me/254797039465?text=Hello%20NIMOH%20CYBER%20CAFEE%2C%20I%20would%20like%20to%20ask%20about%20your%20services." target="_blank" rel="noopener">✆ &nbsp; Chat with Us on WhatsApp</a><p class="note">Phone and WhatsApp links are configured for 0797 039 465.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container">
+    <div class="footer-row"><a class="brand" href="#home"><span class="brand-icon">▣</span><span><span class="brand-name">NIMOH <span>CYBER CAFEE</span></span><span class="tagline">FAST • RELIABLE • AFFORDABLE</span></span></a><div class="footer-links"><a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></div></div>
+    <div class="copyright"><span>© <span id="year"></span> NIMOH CYBER CAFEE. All rights reserved.</span><span>Built for mobile and desktop.</span></div>
+  </div></footer>
+  <a class="whatsapp" href="https://wa.me/254797039465?text=Hello%20NIMOH%20CYBER%20CAFEE" target="_blank" rel="noopener" aria-label="Chat with NIMOH CYBER CAFEE on WhatsApp">✆ WhatsApp Us</a>
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const navLinks = document.getElementById('navLinks');
+    menuBtn.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', String(open));
+      menuBtn.textContent = open ? '×' : '☰';
+    });
+    navLinks.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded', 'false');
+      menuBtn.textContent = '☰';
+    }));
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
