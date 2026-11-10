@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#102a56">
+<title>NIMOH CYBER CAFEE | Online Computer Studies</title>
+<style>
+:root{--navy:#102a56;--blue:#1769d2;--gold:#f4b942;--ink:#17243a;--muted:#63728a;--bg:#f4f7fb;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+header{background:var(--navy);color:white;padding:15px 5%;display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.brand{font-weight:800;letter-spacing:.5px;font-size:1.15rem}.brand span{color:var(--gold)}
+nav{display:flex;gap:18px;flex-wrap:wrap}nav a{color:white;text-decoration:none;font-weight:600;font-size:.94rem}
+.hero{padding:64px 5%;background:linear-gradient(120deg,#102a56,#1769d2);color:white}
+.hero-inner{max-width:1100px;margin:auto;display:grid;grid-template-columns:1.25fr .75fr;gap:35px;align-items:center}
+.eyebrow{color:#ffda8a;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;font-size:.82rem}
+h1{font-size:clamp(2.1rem,5vw,3.6rem);line-height:1.1;margin:12px 0 18px}
+.hero p{font-size:1.08rem;max-width:620px;color:#e7efff}
+.btn{display:inline-block;background:var(--gold);color:#17243a;text-decoration:none;border:0;border-radius:9px;padding:13px 20px;font-weight:800;cursor:pointer}
+.hero-card{background:white;color:var(--ink);padding:25px;border-radius:18px;box-shadow:0 15px 35px #071a3c55}
+.price{font-size:2.5rem;font-weight:900;color:var(--blue);margin:0}.small{font-size:.9rem;color:var(--muted)}
+section{padding:55px 5%}.wrap{max-width:1100px;margin:auto}.section-title{text-align:center;margin:0 0 10px;font-size:2rem;color:var(--navy)}.intro{text-align:center;color:var(--muted);max-width:700px;margin:0 auto 30px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;padding:22px;border-radius:14px;box-shadow:0 5px 18px #102a5610}.card h3{color:var(--navy);margin-top:0}.icon{font-size:1.8rem}
+.notice{background:#fff7e5;border-left:5px solid var(--gold);padding:18px;border-radius:9px;margin:20px 0}
+.form-section{background:#eaf1fb}.formbox{max-width:760px;margin:auto;background:white;padding:28px;border-radius:16px;box-shadow:0 8px 25px #102a5614}
+label{display:block;font-weight:700;margin:14px 0 6px}input,select,textarea{width:100%;padding:13px;border:1px solid #cbd5e1;border-radius:8px;font:inherit;background:#fff}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}.pay{background:#f2f7ff;border:1px solid #cbdcf7;padding:18px;border-radius:10px;margin:18px 0}.till{font-size:1.7rem;font-weight:900;color:var(--blue);letter-spacing:1px}
+.check{display:flex;gap:10px;align-items:flex-start;font-weight:400}.check input{width:auto;margin-top:6px}
+button{width:100%;margin-top:18px;font-size:1rem}.foot{background:#0b1e3d;color:#dce7fa;padding:30px 5%;text-align:center}.foot a{color:#ffda8a}
+@media(max-width:760px){.hero-inner{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.grid2{grid-template-columns:1fr}header{justify-content:center;text-align:center}nav{justify-content:center}.hero{padding:48px 6%}section{padding:42px 6%}.formbox{padding:20px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">NIMOH <span>CYBER CAFEE</span></div>
+  <nav><a href="#home">Home</a><a href="#courses">Courses</a><a href="#register">Register</a><a href="#contact">Contact</a></nav>
+</header>
+<main>
+<section class="hero" id="home">
+ <div class="hero-inner">
+  <div>
+   <div class="eyebrow">Learn • Practice • Grow</div>
+   <h1>Build your digital skills from anywhere.</h1>
+   <p>Join NIMOH CYBER CAFEE online computer studies. Learn practical computer skills at your own pace with guidance and support.</p>
+   <a class="btn" href="#register">Register now</a>
+  </div>
+  <div class="hero-card">
+   <div class="small">ONE-TIME REGISTRATION FEE</div>
+   <p class="price">KSh 1,000</p>
+   <p class="small">Pay using M-Pesa Buy Goods / Till Number.</p>
+   <hr style="border:0;border-top:1px solid #e5eaf2;margin:18px 0">
+   <strong>Simple registration</strong>
+   <p class="small">Complete the form, pay the registration fee, then submit your M-Pesa transaction code.</p>
+  </div>
+ </div>
+</section>
+<section id="courses">
+ <div class="wrap">
+  <h2 class="section-title">Our computer courses</h2>
+  <p class="intro">Choose the area you would like to study. Course schedules and learning arrangements will be communicated after registration.</p>
+  <div class="cards">
+   <article class="card"><div class="icon">💻</div><h3>Computer Packages</h3><p>Computer basics, Windows, typing, file management, Word, Excel and PowerPoint.</p></article>
+   <article class="card"><div class="icon">🌐</div><h3>Internet & Online Services</h3><p>Email, safe internet use, online applications, research and digital communication.</p></article>
+   <article class="card"><div class="icon">🎨</div><h3>Design & Digital Skills</h3><p>Introduction to graphic design, posters, branding and basic digital content creation.</p></article>
+  </div>
+  <div class="notice"><strong>Important:</strong> The KSh 1,000 is the registration fee. Any tuition fees, course duration, learning materials and class timetable will be communicated clearly before classes begin.</div>
+ </div>
+</section>
+<section class="form-section" id="register">
+ <div class="wrap">
+  <h2 class="section-title">Student registration</h2>
+  <p class="intro">Fill in your details accurately. After paying, enter your M-Pesa transaction code below.</p>
+  <div class="formbox">
+   <div class="pay">
+    <strong>Pay registration fee using M-Pesa Till</strong>
+    <div class="till">3724596</div>
+    <div class="small">Amount: <strong>KSh 1,000</strong></div>
+    <p class="small">M-Pesa → Lipa na M-Pesa → Buy Goods and Services → enter Till Number 3724596 → enter KSh 1,000 → confirm the business name shown before completing payment.</p>
+   </div>
+   <form id="registrationForm">
+    <div class="grid2">
+     <div><label for="fullname">Full name *</label><input id="fullname" required placeholder="Enter your full name"></div>
+     <div><label for="phone">Phone number *</label><input id="phone" required type="tel" placeholder="e.g. 07XXXXXXXX"></div>
+    </div>
+    <div class="grid2">
+     <div><label for="email">Email address</label><input id="email" type="email" placeholder="Optional"></div>
+     <div><label for="location">Town / Location *</label><input id="location" required placeholder="Where are you based?"></div>
+    </div>
+    <label for="course">Course of interest *</label>
+    <select id="course" required>
+     <option value="">Select a course</option>
+     <option>Computer Packages</option><option>Internet & Online Services</option><option>Design & Digital Skills</option><option>All courses / Not sure yet</option>
+    </select>
+    <label for="level">Current computer experience *</label>
+    <select id="level" required><option value="">Select your level</option><option>Beginner</option><option>Some basic knowledge</option><option>Intermediate</option></select>
+    <label for="transaction">M-Pesa transaction code *</label>
+    <input id="transaction" required placeholder="e.g. QAB12CDE34">
+    <label class="check"><input id="confirm" type="checkbox" required><span>I confirm that I have paid KSh 1,000 to Till Number 3724596 and that the details above are correct.</span></label>
+    <button class="btn" type="submit">Submit registration via WhatsApp</button>
+    <p class="small">When you submit, WhatsApp will open with your registration details for sending to NIMOH CYBER CAFEE. Your registration is subject to payment verification.</p>
+   </form>
+  </div>
+ </div>
+</section>
+<section id="contact">
+ <div class="wrap" style="text-align:center">
+  <h2 class="section-title">Need help registering?</h2>
+  <p class="intro">Contact NIMOH CYBER CAFEE for assistance with registration and course information.</p>
+  <p><strong>Location:</strong> Oyugis, Homa Bay</p>
+  <p><strong>Phone / WhatsApp:</strong> 0797039465</p>
+  <a class="btn" href="https://wa.me/254797039465?text=Hello%20NIMOH%20CYBER%20CAFEE%2C%20I%20need%20help%20with%20online%20computer%20studies." target="_blank" rel="noopener">Chat on WhatsApp</a>
+ </div>
+</section>
+</main>
+<footer class="foot"><strong>NIMOH CYBER CAFEE</strong><br>Online Computer Studies • Oyugis, Homa Bay<br><span class="small" style="color:#c4d2e8">© 2026 NIMOH CYBER CAFEE. All rights reserved.</span></footer>
+<script>
+document.getElementById('registrationForm').addEventListener('submit',function(e){
+ e.preventDefault();
+ const v=id=>document.getElementById(id).value.trim();
+ const msg=`ONLINE COMPUTER STUDIES REGISTRATION%0A%0AFull name: ${encodeURIComponent(v('fullname'))}%0APhone: ${encodeURIComponent(v('phone'))}%0AEmail: ${encodeURIComponent(v('email')||'Not provided')}%0ALocation: ${encodeURIComponent(v('location'))}%0ACourse: ${encodeURIComponent(v('course'))}%0AExperience: ${encodeURIComponent(v('level'))}%0ARegistration fee: KSh 1,000%0AM-Pesa Till: 3724596%0ATransaction code: ${encodeURIComponent(v('transaction'))}%0A%0APlease verify my payment and confirm my registration.`;
+ window.open('https://wa.me/254797039465?text='+msg,'_blank');
+});
+</script>
+</body>
+</html>
